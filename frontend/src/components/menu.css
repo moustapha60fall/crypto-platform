@@ -1,0 +1,72 @@
+.menu-wrapper {
+  position: relative;
+  display: inline-block;
+  margin: 60px;
+  font-family: "Inter", sans-serif;
+}
+
+/* --- Bouton principal --- */
+.menu-button {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  background: transparent;
+  color: #6b6a7e;
+  font-weight: 600;
+  cursor: pointer;
+  user-select: none;
+}
+
+.menu-button:hover {
+  color: #474070;
+}
+
+.arrow {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-top: 6px solid #6b6a7e;
+  transition: transform 0.25s ease;
+}
+
+.arrow.up {
+  transform: rotate(180deg);
+}
+
+/* --- Menu déroulant --- */
+.dropdown {
+  position: absolute;
+  top: 35px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: white;
+  border-radius: 8px;
+  box-shadow: 0px 6px 16px rgba(0, 0, 0, 0.1);
+  width: 200px;
+  padding-top: 8px;
+  z-index: 10;
+  animation: fadeIn 0.25s ease;
+}
+
+/* --- Petite flèche au-dessus --- */
+.dropdown-arrow {
+  position: absolute;
+  top: -6px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 12px;
+  height: 12px;
+  background: white;
+  box-shadow: -1px -1px 1px rgba(0, 0, 0, 0.05);
+  z-index: -1;
+}
+
+/* --- Contenu du menu --- */
+.contents {
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0;
+}
+

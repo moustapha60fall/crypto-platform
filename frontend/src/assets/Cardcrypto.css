@@ -1,0 +1,169 @@
+.container-ep {
+    padding-top: 0px;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.container-ep .colCtnr {
+    margin-top: 45px;
+    margin-top: 3px;
+    zoom: 1
+}
+
+.container-ep .colCtnr:after,
+.container-ep .colCtnr:before {
+    content: "";
+    display: table
+} 
+
+.container-ep .colCtnr:after {
+    clear: both
+}
+
+.container-ep .col-menu {
+    display: inline;
+    float: left;
+    width: 240px;
+    margin: 0;
+    position: relative
+}
+
+.container-ep .col-menu .block-account {
+    background-color: #fcfcfc;
+    border: 1px solid #c7c7cc;
+    border-radius: 3px;
+    background-clip: padding-box;
+    box-shadow: 0 0 3px 1px #c8c8cc;
+    margin-bottom: 10px;
+    height: 168px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-ep .col-menu .block-account .block-avatar {
+    width: 145px;
+    height: 145px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid #c7c7cc;
+    background-color: #fcfcfc;
+    -webkit-border-radius: 3px;
+    -webkit-background-clip: padding-box;
+    -moz-border-radius: 3px;
+    -moz-background-clip: padding;
+    border-radius: 50%;
+    background-clip: padding-box;
+}
+
+.container-ep .col-menu .block-account .block-avatar .avatarCtnr .imageProfilUrl {
+    text-align: center;
+    display: table-cell;
+    vertical-align: middle;
+    width: 135px;
+    height: 135px;
+    border-radius: 50%
+}
+
+.container-ep .col-menu .block-account .block-avatar a {
+    position: absolute;
+    bottom: 5px;
+    left: 22px;
+    font-size: .813em
+}
+
+button.ui-multiselect.ui-widget.ui-state-default.ui-corner-all.ep-select:not(:last-child) {
+    margin-right: 1.75rem;
+}
+
+.container-ep .col-menu .block-account .block-name .username {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    max-width: 110px;
+    display: inline-block
+}
+
+.container-ep .col-menu .block-account .block-name .progress-bar {
+    display: block;
+    width: 110px;
+    height: 11px;
+    margin-top: 5px;
+    float: left;
+    background: url(ep.png) -6px -55px no-repeat
+}
+
+.container-ep .col-menu .block-account p {
+    color: #373b3f;
+    font-size: .813em;
+    clear: both;
+    float: left;
+    padding: 5px 10px 0
+}
+
+.container-ep .col-menu ul.menu-left {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    border: 1px solid #c7c7cc;
+    box-shadow: 0 0 3px 1px #c8c8cc
+}
+
+.container-ep .col-menu ul.menu-left li a.ep {
+    background-color: #27ccc3;
+    color: #fcfcfc;
+    display: block;
+    font-size: .938em;
+    padding-left: 20px;
+    font-weight: 600;
+    min-height: 60px;
+    line-height: 60px;
+    border-bottom: 1px solid #c7c7cc
+}
+
+.container-ep .col-menu ul.menu-left li a.ep.selected span {
+    position: absolute;
+    width: 12px;
+    display: block;
+    height: 17px;
+    background: url(sprite.png?v=1.0.0.0-0001) -910px -121px no-repeat;
+    top: 24px;
+    right: 15px
+}
+
+.container-ep .col-menu ul.menu-left li.app {
+    background-color: #373b3f;
+    height: 60px;
+    line-height: 60px
+}
+
+.container-ep .col-menu ul.menu-left li.app span {
+    color: #fcfcfc;
+    font-weight: 600;
+    padding-left: 20px;
+    text-shadow: 1px 1px 1px #131313;
+    float: left
+}
+
+.container-ep .col-menu ul.menu-left li.app a {
+    display: block;
+    float: right;
+    height: 60px;
+    width: 57px
+}
+
+.container-ep .col-menu ul.menu-left li.app a.android {
+    border-left: 1px solid #fcfcfc;
+    background: url(ep.png) -41px 6px no-repeat
+}
+
+.container-ep .col-content {
+    display: inline;
+    float: left;
+    width: 740px;
+    margin: 0 0 0 20px
+}
