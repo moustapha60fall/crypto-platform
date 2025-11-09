@@ -1,0 +1,6 @@
+package tdsi2025.mcs.enums;
+
+public enum CryptoServiceType {
+
+      CONFIDENTIALITY, AUTHENTICITY, INTEGRITY, NON_REPUDIATION, KEY_MANAGEMENT, KEY_EXCHANGE
+}
